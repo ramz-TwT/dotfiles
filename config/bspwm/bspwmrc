@@ -19,7 +19,7 @@ bspc rule -a Screenkey manage=off
 
 picom &
 ~/.config/polybar/launch.sh &
-feh --bg-scale ~/Imagens/2a39c464b3ec05d612f0caa280aa92e4.jpg
+feh --bg-scale ~/.config/wallpapers/2a39c464b3ec05d612f0caa280aa92e4.jpg
 dunst &
 pgrep -x flameshot > /dev/null || flameshot &
 
