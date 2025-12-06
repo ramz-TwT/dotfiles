@@ -13,7 +13,9 @@ super + @space
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
-
+# betterlockscreen
+super + p
+	betterlockscreen -l
 #
 # bspwm hotkeys
 #
